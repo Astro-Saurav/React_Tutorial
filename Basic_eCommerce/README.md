@@ -1,16 +1,58 @@
-# React + Vite
+# Basic eCommerce (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to the **Basic eCommerce** project! This repository contains a foundational frontend setup for a modern, responsive eCommerce web application built using React and Vite. It serves as a great starting point for building online store interfaces.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Fast Development**: Powered by Vite for lightning-fast hot module replacement (HMR) and optimized builds.
+- **Modern React**: Uses functional components and hooks.
+- **eCommerce Assets**: Includes initial assets like shoe images, ready to be integrated into product cards.
+- **Code Quality**: Pre-configured with Oxlint rules to ensure clean, maintainable code.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (v18+)
+- **Vite**
+- **Oxc / SWC**
 
-## Expanding the Oxlint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- [View Live Demo](https://react-tutorial-9lx8.vercel.app/)
+
+
+## 💻 Getting Started
+
+Follow these instructions to run the eCommerce template locally on your machine.
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
+
+### Installation & Setup
+
+1. **Navigate to the directory**:
+   ```bash
+   cd Basic_eCommerce
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in Browser**:
+   Navigate to `http://localhost:5173` to view the app live!
+
+## 📁 Project Structure
+
+- `src/` - Contains all React components, styles, and core logic.
+- `public/` - Public assets served at the root.
+- `shoes_image/` - Contains sample product imagery for the store.
+
+## 🤝 Next Steps
+
+This project is a template. Feel free to expand on it by adding state management (like Redux or Zustand), routing (React Router), and connecting to a backend API to fetch real product data!
